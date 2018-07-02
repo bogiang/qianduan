@@ -26,11 +26,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 	border-top: 1px solid #fff;
 	
 }
-.content-all div>div{
-	
-	float: left;
-	margin: 10px 0 0 10px;
-}
+
 
 p strong:first-child{
 	margin: 0;
@@ -50,3 +46,28 @@ a:active{
 .change-line p strong{
 	display: block;
 }
+.pcss{
+	width: 845px;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	border-right:  1px solid #ccc;
+	height: 91px;
+	padding-top: 10px;
+	padding-left: 10px; 
+}
+
+.s3 div{
+	width: 845px;
+	float: left;
+	padding-left: 10px;
+}
+.s3 div:nth-of-type(1){
+	padding-top: 10px;
+}
+.s3 div:nth-of-type(2){
+	padding-top: 0px;
+}
+.change-line p>strong{
+	float: left;
+}
+

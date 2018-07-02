@@ -15,10 +15,10 @@ h1{
 .content-all {
 	float: left;
 }
-div strong:first-child{
+p strong:first-child{
 	margin: 0;
 }
-div strong{
+p strong{
 	margin: 0 10px 0 50px;
 }
 a:hover{
@@ -30,6 +30,6 @@ a:visited{
 a:active{
 	color:yellow;
 }
-.change-line div strong{
+.change-line p strong{
 	display: block;
 }
