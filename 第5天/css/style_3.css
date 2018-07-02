@@ -1,0 +1,52 @@
+body{
+	width: 960px;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+.title-name h1{
+	display: block;
+	background-color: #848484;
+	color: #fff;
+	padding: 20px;
+}
+.content-all>div{
+	width: 100%;
+	overflow: hidden;
+}
+.content-all div:first-child h2{
+	border-top: 0px solid #fff;
+}
+.content-all div>h2{
+	float: left;
+	background-color: #D6D6D6;
+	padding: 40px 20px;
+	border-top: 1px solid #fff;
+	
+}
+.content-all div>div{
+	
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+p strong:first-child{
+	margin: 0;
+}
+p strong{
+	margin: 0 10px 0 50px;
+}
+a:hover{
+	color:green;
+}
+a:visited{
+	color:red;
+}
+a:active{
+	color:yellow;
+}
+.change-line p strong{
+	display: block;
+}

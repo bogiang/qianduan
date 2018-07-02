@@ -1,0 +1,19 @@
+
+div strong:first-child{
+	margin: 0;
+}
+div strong{
+	margin: 0 10px 0 50px;
+}
+a:hover{
+	color:green;
+}
+a:visited{
+	color:red;
+}
+a:active{
+	color:yellow;
+}
+.change-line div strong{
+	display: block;
+}

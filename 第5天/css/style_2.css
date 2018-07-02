@@ -1,0 +1,35 @@
+.title-name {
+	float: left;
+	display: block;
+	width: 180px;
+	height: 712px;
+	background-color: #65A4FA;
+	color: #fff;
+	margin-right: 25px;
+}
+h1{
+	float: left;
+	display: block;
+	margin: 60px 55px; 
+}
+.content-all {
+	float: left;
+}
+div strong:first-child{
+	margin: 0;
+}
+div strong{
+	margin: 0 10px 0 50px;
+}
+a:hover{
+	color:green;
+}
+a:visited{
+	color:red;
+}
+a:active{
+	color:yellow;
+}
+.change-line div strong{
+	display: block;
+}
