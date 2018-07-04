@@ -56,7 +56,7 @@ a:active{
 	padding-left: 10px; 
 }
 
-.s3 div{
+.s3>div{
 	width: 845px;
 	float: left;
 	padding-left: 10px;
@@ -69,5 +69,10 @@ a:active{
 }
 .change-line p>strong{
 	float: left;
+}
+.double-right{
+	border-bottom: 1px solid #ccc;
+	border-right:  1px solid #ccc;
+	height: 91px;
 }
 
