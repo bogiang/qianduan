@@ -3,9 +3,12 @@
 	<head>
 		<style>
 		*{padding: 0;margin: 0;}
-		.header{
+		.header-div{
 			background-color: #333;
-			width: 100%;
+		}
+		.header{
+			margin: 0 auto;
+			width: 960px;
 			height: 50px;
 			color: #fff;
 		}
@@ -13,11 +16,9 @@
 			float: left;
 			font-size: 18px;
 			line-height: 50px;
-			padding-left: 150px;
 		}
 		.header-nav{
 			float: right;
-			margin-right: 150px;
 		}
 		.header-nav ul{
 			list-style: none;
@@ -72,13 +73,16 @@
 		}
 		/* 上面求解决 */
 
-		.nav{
-			height: 50px;
+		.nav-div{
 			border-bottom: 1px solid #aaa;
+		}
+		.nav{
+			width: 960px;
+			height: 50px;
+    		margin: 0 auto;
 		}
 		.nav-nav{
 			float: left;
-			margin-left: 150px;
 			font-size: 14px;
 			margin-top: 10px;
 		}
@@ -97,12 +101,41 @@
 			padding: 10px 20px;
 			text-decoration: none;
 		}
+		.content{
+			width: 960px;
+    		margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+		}
+		.box{
+			display: flex;
+		}
+		.box-item{
+	        border: 1px solid #aaa;
+		    height: 150px;
+		    line-height: 150px;
+		    text-align: center;
+		    margin: 5px;
+		    padding: 0 80px;
+		    flex-grow: 1;
+		}
+		.fs{
+			flex-shrink: 0;
+		}
+		.floor{
+			height: 100px;
+		    background: #333;
+		    color: #fff;
+		    text-align: center;
+		    line-height: 50px;
+		}
 		</style>
 	</head>
 
 	<body>
 
-		<div class="header">
+		<div class="header-div">
+			<div class="header">
 				<div class="logo">Logo</div>
 				<div class="header-nav">
 					<ul>
@@ -111,7 +144,9 @@
 						<li><a href="#">Login</a></li>
 					</ul>
 				</div>
+			</div>
 		</div>
+		
 
 		<div class="banner">
 			<div class="banner-nav">
@@ -123,27 +158,42 @@
 				</ul>
 			</div>
 		</div>
-		<div class="nav">
-			<div class="nav-nav">
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">PROFILE</a></li>
-					<li><a href="#">ABOUT</a></li>
-				</ul>
+
+		<div class="nav-div">
+			<div class="nav">
+				<div class="nav-nav">
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">PROFILE</a></li>
+						<li><a href="#">ABOUT</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
+		
 		<div class="content">
-			<div>this is content 1</div>
-			<div>maybe content 2</div>
-			<div>content 3</div>
-			<div>content 4</div>
-			<div>content 5</div>
-			<div>content 6</div>
-			<div>content 7</div>
-			<div>content 8</div>
-			<div>content 9</div>
-			<div>content 10</div>
+			<div class="box">
+				<div class="box-item">this is content 1</div>
+				<div class="box-item">maybe content 2</div>
+				<div class="box-item">content 3</div>
+			</div>
+			<div class="box">
+				<div class="box-item fs">content 4</div>
+				<div class="box-item fs">content 5</div>
+				<div class="box-item fs">content 6</div>
+				<div class="box-item fs">content 7</div>
+			</div>
+			<div class="box">
+				<div class="box-item">content 8</div>
+				<div class="box-item">content 9</div>
+				<div class="box-item">content 10</div>
+			</div>
+			
+			
+			
 		</div>
-		<div class="floor"></div>
+		<div class="floor">
+			2018 ife.baidu.com
+		</div>
 	</body>
 </html>
